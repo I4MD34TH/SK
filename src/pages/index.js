@@ -4,9 +4,8 @@ import { Button, Grid, Col, Carousel, Row } from 'react-bootstrap'
 
 const IndexPage = () => (
   <div className={'main'}>
-    <section className={'intro'} style={{'background-image':'url(../images/background.png)', 'background-size':'cover', 'background-position':'bottom', }}>
+    <section className={'intro'} style={{'background-image':'url(../images/background.png)', 'background-size':'cover', 'background-position':'top', }}>
       <div className={'intro-content container-fluid'}>
-        <img className={'arslan-img'} src={'../images/arslan.png'} />
         <div className={'intro-frame'}>
           <h1 className={'text-right'}>Pakistan's Leading <br /> Real Estate <br /> Investment <br /> Advisor</h1>
           <a className={'text-right'}><strong>L</strong>earn-<strong>M</strong>ore</a>
@@ -57,17 +56,17 @@ const IndexPage = () => (
     <section id={'contact'} className={'contact'}>
       <Grid>
         <div className={'contact-heading'}>
-          <h2 className={'ch-1'} style={{'color':'white', }}><strong>Looking for a First-Class<br /> Real Estate <span style={{'color':'#EF5350', }}>Investment Advisor</span></strong></h2>
-          <h2 className={'ch-2'} style={{'color':'white', 'font-size':'28px', }}><strong>Looking for a<br /> First-Class<br /> Real Estate <span style={{'color':'#EF5350', }}>Investment Advisor</span></strong></h2>
+          <h2 className={'ch-1'} style={{'color':'white', }}><strong>Looking for a First-Class<br /> Real Estate <span style={{'color':'#FFC107', }}>Investment Advisor</span></strong></h2>
+          <h2 className={'ch-2'} style={{'color':'white', 'font-size':'28px', }}><strong>Looking for a<br /> First-Class<br /> Real Estate <span style={{'color':'#FFC107', }}>Investment Advisor</span></strong></h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet.</p>
           <button className={'contact-btn'}><strong>Contact Now</strong></button>
         </div>
-        <img src={'images/arslan-2.png'} />
+        <img src={'images/saad.png'} />
       </Grid>
     </section>
     <section id={'quotes'} className={'text-center quotes'}>
       <Grid>
-        <img src={'../images/quote-logo.png'} style={{'width':'50px', 'margin-top':'90px', 'margin-bottom':'70px', }} />
+        <img src={'../images/quotes-logo.png'} style={{'width':'50px', 'margin-top':'90px', 'margin-bottom':'70px', }} />
         <div style={{'margin-top':'20px', 'margin-bottom':'150px',}}>
           <Carousel interval={3500}>
             <Carousel.Item>

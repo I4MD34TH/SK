@@ -6,13 +6,13 @@ html, body {
 }
 .header .container {
     width: 99.5vw;
-    padding: 10px 150px 0px 150px
+    padding: 10px 150px 0px 150px;
 }
 .navbar-nav > li > a {
     color: #fff !important;
 }
 .navbar-nav > li > a:hover {
-    color: #EF5350 !important;
+    color: #FFC107 !important;
     transition: 0.4s ease !important;
 }
 .navitem {
@@ -68,7 +68,7 @@ html, body {
     padding-bottom: 90px;
 }
 .contact {
-    background-color: #303030;
+    background-color: #2a2a2a;
 }
 .contact-heading {
     width: 500px;
@@ -76,7 +76,7 @@ html, body {
     margin-top: 30px;
 }
 .contact-heading p {
-    color: #9aa7bc;
+    color: #8d8d8d;
 }
 .contact img {
     height: 300px;
@@ -86,11 +86,11 @@ html, body {
     border: none;
     padding: 10px 30px 10px 30px;
     margin-top: 10px;
-    color: #232323;
+    color: #2a2a2a;
 }
 .contact-btn:hover {
     color: white;
-    background-color: #EF5350;
+    background-color: #FFC107;
     transition: 0.3s ease;
 }
 .carousel-indicators {
@@ -125,11 +125,12 @@ html, body {
 .subscription-btn {
     border: none;
     padding: 15px 30px 15px 30px;
-    background-color: #EF5350;
+    background-color: #FFC107;
+    color: #2d2d2d;
 }
 .subscription-btn:hover {
     background-color: white;
-    color: #EF5350;
+    color: #FFC107;
     transition: 0.3s ease;
 }
 .copy-right img {
@@ -197,16 +198,10 @@ button.navbar-toggle:hover {
     width: 350px;
     right: 220px;
     bottom: 52px;
-    color: #EF5350;
+    color: #FFC107;
 }
 .intro-frame img {
     width: 250px;
-}
-.arslan-img {
-    position: absolute;
-    width: 30vw;
-    bottom: 0px;
-    right: 0px;
 }
 .ch-2 {
     display: none;
@@ -221,11 +216,6 @@ button.navbar-toggle:hover {
     .intro-frame {
         left: 30vw;
         bottom: 15vh;
-    }
-    .arslan-img {
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
     }
 }
 @media only screen and (max-width: 1200px) {
@@ -343,10 +333,6 @@ button.navbar-toggle:hover {
     }
     .intro-frame img {
         width: 190px;
-    }
-    .arslan-img {
-        width: 37vw;
-        display: none;
     }
     .col-md-4.col-xs-6 {
         float: none;
