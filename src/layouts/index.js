@@ -10,26 +10,24 @@ import './index.css'
 const Header = () => (
     <Navbar collapseOnSelect className={'header'} style={{'background':'transparent', 'border':'none', 'position':'absolute', 'z-index':'100', }}>
       <Navbar.Header>
-        <Navbar.Brand>
-          <img src={'../images/logo.png'} />
-        </Navbar.Brand>
-        <Navbar.Toggle />
-      </Navbar.Header>
-      <Nav pullRight className={'social-nav'}>
-        <NavItem eventKey={2} href={"#"}><img src={'../images/fb-header.png'} /></NavItem>
-        <NavItem eventKey={2} href={"#"}><img src={'../images/gmail-header.png'} /></NavItem>
-        <NavItem eventKey={2} href={"#"}><img src={'../images/twitter-header.png'} /></NavItem>
-        <NavItem eventKey={2} href={"#"}><img src={'../images/instagram-header.png'} /></NavItem>
+      <Navbar.Brand>
+        <img src={'../images/logo.png'} />
+      </Navbar.Brand>
+      <Navbar.Toggle />
+    </Navbar.Header>
+    <Nav pullRight className={'social-nav'}>
+      <li><a href={'https://www.facebook.com/SaadKhtk/'} target={'_blank'}><img src={'../images/fb-header.png'} /></a></li>
+      <li><a href={'https://twitter.com/SaadKhtk'} target={'_blank'}><img src={'../images/twitter-header.png'} /></a></li>
+    </Nav>
+    <Navbar.Collapse>
+      <Nav className={'main-nav'} pullRight style={{'margin-top':'5px', 'color': '#fff',}}>
+        <li><Scrollchor to={'about'}>About</Scrollchor></li>
+        <li><Scrollchor to={'mission'}>Mission</Scrollchor></li>
+        <li><Scrollchor to={'contact'}>Get Connected</Scrollchor></li>
+        <li><Scrollchor to={'quotes'}>Follow me</Scrollchor></li>
       </Nav>
-      <Navbar.Collapse>
-        <Nav className={'main-nav'} pullRight style={{'margin-top':'5px', 'color': '#fff',}}>
-          <NavItem eventKey={1} href={"#"}>About</NavItem>
-          <NavItem eventKey={2} href={"#"}>Mission</NavItem>
-          <NavItem eventKey={2} href={"#"}>Get Connected</NavItem>
-          <NavItem eventKey={2} href={"#"}>Follow me</NavItem>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    </Navbar.Collapse>
+  </Navbar>
 )
 
 const Footer = () => (
@@ -56,9 +54,8 @@ const Footer = () => (
             <footer style={{'color':'#c4c4c4', }}>Copyright &copy; Agency21Pvt Ltd. All rights reserved.</footer>
           </div>
           <div className={'social'}>
-              <a href={'https://www.facebook.com/arslan.javed/'} target={'_blank'}><img src={'../images/fb-footer.png'} style={{'height':'22px', 'padding-right':'15px', 'padding-bottom':'2px', }} /></a>
-              <a href={'https://twitter.com/Arslanjvd'} target={'_blank'}><img src={'../images/twitter-footer.png'} style={{'height':'20px', 'padding-right':'15px',}} /></a>
-              <a href={'https://www.instagram.com/arslanjaved/'} target={'_blank'}><img src={'../images/instagram-footer.png'} style={{'height':'20px',}} /></a>
+              <a href={'https://www.facebook.com/SaadKhtk/'} target={'_blank'}><img src={'../images/fb-footer.png'} style={{'height':'22px', 'padding-right':'15px', 'padding-bottom':'2px', }} /></a>
+              <a href={'https://twitter.com/SaadKhtk'} target={'_blank'}><img src={'../images/twitter-footer.png'} style={{'height':'20px', 'padding-right':'15px',}} /></a>
           </div>
       </Grid>
   </section>
@@ -66,7 +63,7 @@ const Footer = () => (
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="Arslan Javed" meta={[{ name: 'description', content: 'Sample' }, { name: 'keywords', content: 'sample, something' }, ]}>
+    <Helmet title="Saad Khattak" meta={[{ name: 'description', content: 'Sample' }, { name: 'keywords', content: 'sample, something' }, ]}>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />
     </Helmet>
     <Header />
