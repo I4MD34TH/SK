@@ -19,6 +19,7 @@ const IndexPage = () => (
         <div>
           <h1 className={'about-heading'}><strong>A LITTLE ABOUT ME</strong></h1>
           <p className={'about-para'}>During more than 35 years of meritorious service in Pakistan Army, Major General (R) Muhammad Saad khattak had the privilege to serve on prestigious staff, instructional and managerial appointments at premier military institutions and organisations. After retirement from the army, General Khattak decided to utilize his vast managerial-cum-administrative experience and expertise in the field of real estate development.</p>
+          <p className={'about-para'}>While operating in the field of Real Estate in Pakistan, the General is endeavouring his pass on his operational and managerial expertise to the young men and women forming the Graana Group of Companies. His mission to participate in Nation Binding hence continuing without a break. </p>
         </div>
         <img src={'../images/thumb.png'} />
       </Grid>
@@ -29,21 +30,21 @@ const IndexPage = () => (
         <Grid className={'child'}>
           <Row className={'text-center'}>
             <h1 className={'about-heading'}><strong>MY MISSION</strong></h1>
-            <p className={'about-para'}>After 35 years in the Army, he continues to serve Pakistan in Real Estate development.</p>
+            <p className={'about-para'}>After 35 years in the Army, he continues to serve Pakistan as a Security Analyst and Real Estate Developer.</p>
           </Row>
           <Row>
             <Col xs={6} md={4}>
               <img className={'img-responsive'} src={'../images/thumb-2.png'} />
-              <h4><strong>The Nation</strong></h4>
-              <p>Writes articles in The Nation regarding security and political position.</p>
+              <h4><strong>National Services</strong></h4>
+              <p>While applying his 35 years of experience in the military mostly having handled security and counter terrorism in Balochistan and KPK/FATA, he regularly contributes in national English Dailies on security and counter terrorism in this region in general and Pakistan in particular. </p>
             </Col>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/thumb-3.png'} />
+              <img className={'img-responsive'} src={'../images/picss.jpg'} />
               <h4><strong>PICSS</strong></h4>
-              <p>(Pakistan Institute of Conflict and Security Studies)<br /> Working on security & CT issues in the region particularly in Pakistan and Afghanistan.</p>
+              <p>(Pakistan Institute of Conflict and Security Studies)<br /> PICSS having General Saad Khattak as the Director General, specializes in monitoring Security and Counter Terrorism in Pakistan/Afganistan. PICSS has numerous unique features to it's credit, and hence enjoys a unique position in the diplomatic community of Pakistan.</p>
             </Col>
             <Col xs={6} md={4}>
-              <img className={'img-responsive'} src={'../images/thumb-4.png'} />
+              <img className={'img-responsive'} src={'../images/graana.jpg'} />
               <h4><strong>Graana</strong></h4>
               <p>Presiding the board of directors at Graana Group of Companies General Khattak is a mentor for dynamic young individuals guiding them to make quality contributions towards Pakistan's real estate industry.</p>
             </Col>
@@ -54,9 +55,8 @@ const IndexPage = () => (
     <section id={'contact'} className={'contact'}>
       <Grid>
         <div className={'contact-heading'}>
-          <h2 className={'ch-1'} style={{'color':'white', }}><strong>Looking for a First-Class<br /> Real Estate <span style={{'color':'#FFC107', }}>Investment Advisor</span></strong></h2>
-          <h2 className={'ch-2'} style={{'color':'white', 'font-size':'28px', }}><strong>Looking for a<br /> First-Class<br /> Real Estate <span style={{'color':'#FFC107', }}>Investment Advisor</span></strong></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si alia sentit, inquam, alia loquitur, numquam intellegam quid sentiat; Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet.</p>
+          <h2 className={'ch-1'} style={{'color':'white', }}><strong>Looking for First-Class<br /> Management and Operational Services in <span style={{'color':'#FFC107', }}>Real Estate</span></strong></h2>
+          <h2 className={'ch-2'} style={{'color':'white', 'font-size':'28px', }}><strong>Looking for First-Class<br /> Management and Operational Services in <span style={{'color':'#FFC107', }}>Real Estate</span></strong></h2>
           <button className={'contact-btn'}><strong>Contact Now</strong></button>
         </div>
         <img src={'images/saad.png'} />

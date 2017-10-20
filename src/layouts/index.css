@@ -12,6 +12,8 @@ html, body {
     color: #fff !important;
 }
 .navbar-nav > li > a:hover {
+    background-color: black !important;
+    opacity: 0.8 !important;
     color: #FFC107 !important;
     transition: 0.4s ease !important;
 }
@@ -79,7 +81,7 @@ html, body {
     color: #8d8d8d;
 }
 .contact img {
-    height: 300px;
+    height: 260px;
     float: right;
 }
 .contact-btn {
@@ -89,7 +91,7 @@ html, body {
     color: #2a2a2a;
 }
 .contact-btn:hover {
-    color: white;
+    color: #2d2d2d;
     background-color: #FFC107;
     transition: 0.3s ease;
 }
